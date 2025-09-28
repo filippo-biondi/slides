@@ -12,3 +12,5 @@ devenv.local.nix
 
 node_modules
 dist
+
+.DS_Store
