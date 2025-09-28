@@ -12,7 +12,7 @@
     "build:all": "bun run build && bun run postbuild",
 
     "build:preview": "bun run --filter \"*\" build:preview",
-    "postbuild:preview": "cp public/index.html dist/index.html",
+    "postbuild:preview": "cp public/index.html dist/",
     "preview": "bun run build:preview && bun run postbuild:preview && bunx serve dist",
 
     "export": "bun run --filter \"*\" export",

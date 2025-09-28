@@ -3,6 +3,7 @@ title: Algoritmi
 author: Filippo Biondi
 presenter: dev
 browserExporter: build
+routerMode: 'hash'
 addons:
     - '@layouts/slidev-extra'
 class: text-center
