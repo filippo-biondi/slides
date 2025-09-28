@@ -1,0 +1,18 @@
+{
+  "name": "algorithms",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md --base /$REPO_NAME/algorithms/ --out ../../dist/algorithms",
+    "build:preview": "slidev build slides.md --base /algorithms/ --out ../../dist/algorithms",
+    "export": "slidev export slides.md --output ../../export/algorithms"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.2.4",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.21",
+    "@layouts/slidev-extra": "workspace:*"
+  }
+}

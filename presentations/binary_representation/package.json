@@ -1,0 +1,20 @@
+{
+  "name": "binary_representation",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md --base /$REPO_NAME/binary_representation/ --out ../../dist/binary_representation",
+    "build:preview": "slidev build slides.md --base /binary_representation/ --out ../../dist/binary_representation",
+    "export": "slidev export slides.md --output ../../export/binary_representation"
+  },
+  "dependencies": {
+    "@layouts/slidev-extra": "workspace:*",
+    "@slidev/cli": "^52.2.4",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "katex": "^0.16.22",
+    "slidev-addon-qrcode": "^1.0.2",
+    "vue": "^3.5.21"
+  }
+}

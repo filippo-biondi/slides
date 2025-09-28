@@ -1,0 +1,26 @@
+:root {
+  --slidev-theme-primary: #f5693b;
+}
+
+.slidev-layout {
+  padding-top: 2rem;
+}
+
+.slidev-layout p {
+  margin-top: 0;
+}
+
+.slidev-layout p + h2 {
+  margin-top: 2rem;
+}
+
+p:last-child,
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+h7:last-child  {
+  margin-bottom: 0;
+}

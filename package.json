@@ -1,0 +1,45 @@
+{
+  "name": "slidev-presentations",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "presentations/*",
+    "slidev-extra-layout"
+  ],
+  "scripts": {
+    "build": "bun run --filter \"*\" build",
+    "postbuild": "cp public/index.html dist/index.html",
+    "build:all": "bun run build && bun run postbuild",
+
+    "build:preview": "bun run --filter \"*\" build:preview",
+    "postbuild:preview": "cp public/index.html dist/index.html",
+    "preview": "bun run build:preview && bun run postbuild:preview && bunx serve dist",
+
+    "export": "bun run --filter \"*\" export",
+    "dev": "echo 'Please specify a presentation to develop, e.g., bun run dev --filter \"algorithms\"'",
+    "clean": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' + && rm -f bun.lock"
+  },
+  "dependencies": {
+    "@iconify-json/carbon": "^1.2.13",
+    "@iconify-json/mdi": "^1.2.3",
+    "@slidev/cli": "^52.2.4",
+    "slidev-theme-light-icons": "^1.0.2",
+    "vue": "^3.5.21"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.55.0",
+    "prettier": "^3.6.2",
+    "prettier-plugin-slidev": "^1.0.5"
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": ["**/slides.md", "**/pages/*.md"],
+        "options": {
+          "parser": "slidev",
+          "plugins": ["prettier-plugin-slidev"]
+        }
+      }
+    ]
+  }
+}
