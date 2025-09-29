@@ -11,5 +11,5 @@
 <CuriosityBlock class="mt-8">
 La base di numerazione stabilisce quali divisori creano un numero periodico quando una divisione non dà come risultato un numero intero.
 
-In base 10, il 2 e il 5 non creano mai numeri periodici perche 2 e 5 sono divisori di 10
+In base 10, il 2 e il 5 non creano mai numeri periodici perché 2 e 5 sono divisori di 10
 </CuriosityBlock>
