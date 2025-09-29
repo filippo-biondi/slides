@@ -2,7 +2,7 @@
 title: Rappresentazione Binaria
 author: Filippo Biondi
 presenter: dev
-browserExporter: build
+browserExporter: false
 routerMode: 'hash'
 addons:
     - '@layouts/slidev-extra'

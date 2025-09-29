@@ -2,7 +2,7 @@
 title: Git
 author: Filippo Biondi
 presenter: dev
-browserExporter: build
+browserExporter: false
 routerMode: 'hash'
 addons:
     - '@layouts/slidev-extra'
