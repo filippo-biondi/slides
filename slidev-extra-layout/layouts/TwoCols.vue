@@ -1,18 +1,20 @@
 <template>
   <div class="slidev-layout flex flex-col h-full">
     <SlideTitle :title="slideTitle" />
-    <div class="flex-1 pa-4">
+    <div class="flex-1">
       <div class="flex flex-col h-full">
         <div class="centered-content">
           <slot name="top" />
         </div>
-        <div class="grid grid-cols-2 gap-x-8 flex-grow">
-          <div class="centered-content">
+        <div class="flex flex-col flex-grow justify-center">
+        <div class="grid grid-cols-2 gap-x-8">
+          <div class="flex flex-col flex-grow">
             <slot name="left" />
           </div>
-          <div class="centered-content">
+          <div class="flex flex-col flex-grow">
             <slot name="right" />
           </div>
+        </div>
         </div>
         <div class="centered-content">
           <slot name="bottom" />

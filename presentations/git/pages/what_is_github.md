@@ -1,5 +1,5 @@
 ::left::
-<div class="text-center">
+<div class="flex flex-col flex-grow justify-center items-center">
 <carbon:logo-github size="80"/>
 </div>
 

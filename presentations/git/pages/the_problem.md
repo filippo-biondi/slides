@@ -4,7 +4,7 @@
 #### Stai lavorando a un progetto importante e la tua cartella inizia ad assomigliare a questa:
 
 ::left::
-<div class="text-2xl p-6 w-fit text-left">
+<div class="text-2xl text-left">
 
 - `Relazione_v1.docx`
 - `Relazione_v2_corretta.docx`
@@ -17,7 +17,7 @@
 </div>
 
 ::right::
-<div class="text-left ml-14">
+<div class="flex flex-col flex-grow text-left justify-center ml-20">
 <v-click>
 
 ### <Alert>Confusionario</Alert>: <br> Qual è la versione giusta? <br>

@@ -2,7 +2,7 @@
 ### Quando si collabora su GitHub, non si invia il codice direttamente al branch main. Le modifiche vengono proposte tramite una Pull Request (PR)
 
 ::right::
-<div class="text-center my-4">
+<div class="flex flex-col flex-grow justify-center items-center my-4">
 
 ```mermaid {theme: 'neutral', scale: 0.5}
 sequenceDiagram
@@ -21,7 +21,7 @@ sequenceDiagram
 </div>
 
 ::left::
-<div class="text-left">
+<div class="flex flex-col flex-grow justify-center text-letf">
 
 #### <Alert strong>Shared Repository Model</Alert>
 
