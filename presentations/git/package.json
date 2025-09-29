@@ -6,7 +6,7 @@
     "dev": "slidev slides.md",
     "build": "slidev build slides.md --base /$REPO_NAME/git/ --out ../../dist/git",
     "build:preview": "slidev build slides.md --base /git/ --out ../../dist/git",
-    "export": "slidev export slides.md --output ../../export/git"
+    "export": "slidev export slides.md --with-clicks --output ../../export/git"
   },
   "dependencies": {
     "@layouts/slidev-extra": "workspace:*",

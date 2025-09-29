@@ -6,7 +6,7 @@
     "dev": "slidev slides.md",
     "build": "slidev build slides.md --base /$REPO_NAME/algorithms/ --out ../../dist/algorithms",
     "build:preview": "slidev build slides.md --base /algorithms/ --out ../../dist/algorithms",
-    "export": "slidev export slides.md --output ../../export/algorithms"
+    "export": "slidev export slides.md --with-clicks --output ../../export/algorithms"
   },
   "dependencies": {
     "@slidev/cli": "^52.2.4",
