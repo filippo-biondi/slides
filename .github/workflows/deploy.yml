@@ -28,7 +28,7 @@ jobs:
           bun-version: latest
 
       - name: Install dependencies
-        run: bun install --frozen-lockfile
+        run: bun install
 
       - name: Get repository name
         run: echo "REPO_NAME=${{ github.event.repository.name }}" >> $GITHUB_ENV
