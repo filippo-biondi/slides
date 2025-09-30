@@ -25,41 +25,119 @@
       padding: 0;
     }
     li {
-      margin: 1.2em 0;
+      margin: 0.8em 0;
       background-color: #ffffff;
       border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-      transition: transform 0.2s ease-in-out;
-    }
-    li:hover {
-      transform: translateY(-3px);
     }
     a {
       display: block;
-      padding: 1em 1.5em;
-      font-size: 1.25em;
+      padding: 0.8em 1.2em;
+      font-size: 1.1em;
       text-decoration: none;
       color: #007bff;
-      font-weight: 500;
     }
     a:hover {
       color: #0056b3;
+      background-color: #f1f3f5;
+      border-radius: 8px;
+    }
+
+    /* Styles for Collapsible Sections */
+    details {
+      background-color: #ffffff;
+      border-radius: 8px;
+      margin: 1.2em 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease-in-out;
+      border: 1px solid #e9ecef;
+    }
+    details[open] {
+      border-color: #ced4da;
+    }
+    details:hover {
+      transform: translateY(-3px);
+    }
+    summary {
+      padding: 1em 1.5em;
+      font-size: 1.25em;
+      font-weight: 500;
+      color: #495057;
+      cursor: pointer;
+      outline: none;
+      list-style: none; /* Hide default arrow */
+    }
+    summary::-webkit-details-marker {
+      display: none; /* Hide default arrow for Chrome/Safari */
+    }
+    summary:hover {
+      color: #212529;
+    }
+    .class-content {
+      padding: 0 1.5em 1em 1.5em;
+      border-top: 1px solid #e9ecef;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>📚 Slides Cicognini</h1>
-    <ul>
-      <li><a href="binary_representation/">Sistema Binario</a></li>
-      <li><a href="database_intro/">Introduzione ale Basi di Dati</a></li>
-      <li><a href="algorithms/">Algoritmi</a></li>
-    </ul>
+
+    <details>
+      <summary>Classe 1Bsa</summary>
+      <div class="class-content">
+        <ul>
+          <li><a href="binary_representation/">Sistema Binario</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>Classe 1Csa</summary>
+      <div class="class-content">
+        <ul>
+            <li><a href="binary_representation/">Sistema Binario</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>Classe 2Asa</summary>
+      <div class="class-content">
+        <ul>
+          <li><a href="algorithms/">Algoritmi</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>Classe 5Asa</summary>
+      <div class="class-content">
+        <ul>
+          <li><a href="database_intro/">Introduzione alle Basi di Dati</a></li>
+        </ul>
+      </div>
+    </details>
 
     <h1>📚 Slides Buzzi</h1>
-    <ul>
-      <li><a href="git">Git</a></li>
-    </ul>
+
+    <details>
+      <summary>Classe 3H</summary>
+      <div class="class-content">
+        <ul>
+          <li><a href="git/">Git</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>Classe 5H</summary>
+      <div class="class-content">
+        <ul>
+          <li><a href="git/">Git</a></li>
+        </ul>
+      </div>
+    </details>
+
   </div>
 </body>
 </html>
