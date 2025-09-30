@@ -7,7 +7,6 @@ routerMode: 'hash'
 addons:
     - '@layouts/slidev-extra'
 class: text-center
-background: https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 src: ./pages/title.md
 ---
 
@@ -48,84 +47,97 @@ imagePercentage: 40
 ---
 
 ---
-layout: Grid2x2
-slideTitle: Blocks
+layout: SideImage
+slideTitle: 2. Problemi di Ricerca
+src: ./pages/search_problems.md
+image: ./maze.jpg
+imageLeft: false
+imagePercentage: 40
 ---
-::tl::
-<TakeawayBlock>
-Test for takeaway
-</TakeawayBlock>
-::tr::
-<WarningBlock>
-Test for warning
-</WarningBlock>
-::bl::
-<DefinitionBlock>
-Test for definition
-</DefinitionBlock>
-::br::
-<CuriosityBlock>
-Test for curiosity
-</CuriosityBlock>
+
+---
+layout: SideImage
+slideTitle: 2. Problemi di Ottimizzazione
+src: ./pages/optimization_problems.md
+image: ./tsp.webp
+imageLeft: false
+imagePercentage: 40
+---
 
 ---
 layout: ThreeCols
-slideTitle: Trio Slide
+slideTitle: Come si affronta un problema complesso?
+src: ./pages/complex_problem.md
 ---
-::left::
-# Column 1
-
-::center::
-# Column 2
-
-::right::
-# Column 3
 
 ---
-layout: Grid2x2
-slideTitle: Grid slide
+layout: Default
+slideTitle: La Potenza della Modellazione
+src: ./pages/power_of_modelling.md
 ---
-::tl::
-# Top Left
-
-::tr::
-# Top Right
-
-::bl::
-# Bottom Left
-
-::br::
-# Bottom Right
 
 ---
 layout: TwoCols
+slideTitle: "Scomposizione: Top-Down vs. Bottom-Up"
+src: ./pages/top_down_bottom_up.md
 ---
-::top::
-# Top
-
-::left::
-# Left Column
-
-::right::
-# Right Column
-
-::bottom::
-# Bottom
 
 ---
-layout: ThreeCols
+layout: SideImage
+slideTitle: "La Risposta al Problema: L’Algoritmo"
+src: ./pages/algorithm.md
+image: ./algorithm.jpg
+imageLeft: false
+imagePercentage: 50
 ---
-::top::
-# Top
 
-::left::
-# Left Column
+---
+layout: TwoCols
+slideTitle: "Algoritmo vs. Programma: L’Idea e l’Azione"
+src: ./pages/program_vs_algorithm.md
+---
 
-::center::
-# Center Column
+---
+layout: Default
+slideTitle: Le 5 Proprietà Fondamentali di un Algoritmo
+src: ./pages/algorithm_properties.md
+---
 
-::right::
-# Right Column
+---
+layout: TwoCols
+slideTitle: Come Si Descrive un Algoritmo?
+src: ./pages/writing_algorithm.md
+---
 
-::bottom::
-# Bottom
+---
+layout: Default
+slideTitle: Un Esempio
+src: ./pages/example.md
+---
+
+---
+layout: Default
+slideTitle: Un Esempio
+src: ./pages/example_2.md
+---
+
+---
+layout: TwoCols
+slideTitle: Ai Confini dell'Informatica
+src: ./pages/calcolability_complexity.md
+---
+
+---
+layout: SideImage
+slideTitle: Problemi Indecidibili
+src: ./pages/calcolability.md
+image: ./hilbert.jpg
+imageLeft: false
+imagePercentage: 30
+---
+
+---
+layout: Image
+slideTitle: Problemi Intrattabili
+src: ./pages/complexity.md
+---

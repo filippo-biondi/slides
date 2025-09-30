@@ -11,16 +11,13 @@ L’obiettivo è fornire una risposta booleana: sì/no, vero/falso
 <ExampleBlock title="Esempio: Il numero è primo?">
 
 
-**PROBLEMA**: Dato un intero n,
-stabilire se è primo.
+**PROBLEMA**: Dato un intero n, stabilire se è primo
 
-**INPUT**: Un numero intero, es. 13.
+**INPUT**: Un numero intero, es. 13
 <br>
-**OUTPUT**: ”Sì” (perché ha solo 2
-divisori: 1 e 13).
+**OUTPUT**: ”Sì” (perché ha solo 2 divisori: 1 e 13)
 
-**INPUT**: Un numero intero, es. 12.
+**INPUT**: Un numero intero, es. 12
 <br>
-**OUTPUT**: ”No” (perché è
-divisibile per 2, 3, 4, 6).
+**OUTPUT**: ”No” (perché è divisibile per 2, 3, 4, 6)
 </ExampleBlock>

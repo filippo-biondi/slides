@@ -38,6 +38,18 @@
         "vue": "^3.5.21",
       },
     },
+    "presentations/database_intro": {
+      "name": "database_intro",
+      "dependencies": {
+        "@layouts/slidev-extra": "workspace:*",
+        "@slidev/cli": "^52.2.4",
+        "@slidev/theme-default": "latest",
+        "@slidev/theme-seriph": "latest",
+        "katex": "^0.16.22",
+        "slidev-addon-qrcode": "^1.0.2",
+        "vue": "^3.5.21",
+      },
+    },
     "presentations/git": {
       "name": "git",
       "dependencies": {
@@ -821,6 +833,8 @@
     "data-view-byte-length": ["data-view-byte-length@1.0.2", "", { "dependencies": { "call-bound": "^1.0.3", "es-errors": "^1.3.0", "is-data-view": "^1.0.2" } }, "sha512-tuhGbE6CfTM9+5ANGf+oQb72Ky/0+s3xKUpHvShfiz2RxMFgFPjsXuRLBVMtvMs15awe45SRb83D6wH4ew6wlQ=="],
 
     "data-view-byte-offset": ["data-view-byte-offset@1.0.1", "", { "dependencies": { "call-bound": "^1.0.2", "es-errors": "^1.3.0", "is-data-view": "^1.0.1" } }, "sha512-BS8PfmtDGnrgYdOonGZQdLZslWIeCGFP9tpan0hi1Co2Zr2NKADsvGYA8XxuG/4UWgJ6Cjtv+YJnB6MM69QGlQ=="],
+
+    "database_intro": ["database_intro@workspace:presentations/database_intro"],
 
     "dayjs": ["dayjs@1.11.18", "", {}, "sha512-zFBQ7WFRvVRhKcWoUh+ZA1g2HVgUbsZm9sbddh8EC5iv93sui8DVVz1Npvz+r6meo9VKfa8NyLWBsQK1VvIKPA=="],
 
