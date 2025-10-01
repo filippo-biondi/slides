@@ -50,6 +50,30 @@
         "vue": "^3.5.21",
       },
     },
+    "presentations/entity_relation": {
+      "name": "entity_relation",
+      "dependencies": {
+        "@layouts/slidev-extra": "workspace:*",
+        "@slidev/cli": "^52.2.4",
+        "@slidev/theme-default": "latest",
+        "@slidev/theme-seriph": "latest",
+        "katex": "^0.16.22",
+        "slidev-addon-qrcode": "^1.0.2",
+        "vue": "^3.5.21",
+      },
+    },
+    "presentations/flowchart": {
+      "name": "flowchart",
+      "dependencies": {
+        "@layouts/slidev-extra": "workspace:*",
+        "@slidev/cli": "^52.2.4",
+        "@slidev/theme-default": "latest",
+        "@slidev/theme-seriph": "latest",
+        "katex": "^0.16.22",
+        "slidev-addon-qrcode": "^1.0.2",
+        "vue": "^3.5.21",
+      },
+    },
     "presentations/git": {
       "name": "git",
       "dependencies": {
@@ -918,6 +942,8 @@
 
     "entities": ["entities@6.0.1", "", {}, "sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g=="],
 
+    "entity_relation": ["entity_relation@workspace:presentations/entity_relation"],
+
     "error-ex": ["error-ex@1.3.4", "", { "dependencies": { "is-arrayish": "^0.2.1" } }, "sha512-sqQamAnR14VgCr1A618A3sGrygcpK+HEbenA/HiEAkkUwcZIIB/tgWqHFxWgOyDh4nB4JCRimh79dR5Ywc9MDQ=="],
 
     "error-stack-parser-es": ["error-stack-parser-es@1.0.5", "", {}, "sha512-5qucVt2XcuGMcEGgWI7i+yZpmpByQ8J1lHhcL7PwqCwu9FPP3VUXzT4ltHe5i2z9dePwEHcDVOAfSnHsOlCXRA=="],
@@ -1029,6 +1055,8 @@
     "finalhandler": ["finalhandler@1.1.2", "", { "dependencies": { "debug": "2.6.9", "encodeurl": "~1.0.2", "escape-html": "~1.0.3", "on-finished": "~2.3.0", "parseurl": "~1.3.3", "statuses": "~1.5.0", "unpipe": "~1.0.0" } }, "sha512-aAWcW57uxVNrQZqFXjITpW3sIUQmHGG3qSb9mUah9MgMC4NeWhNOlNjXEYq3HjRAvL6arUviZGGJsBg6z0zsWA=="],
 
     "floating-vue": ["floating-vue@5.2.2", "", { "dependencies": { "@floating-ui/dom": "~1.1.1", "vue-resize": "^2.0.0-alpha.1" }, "peerDependencies": { "@nuxt/kit": "^3.2.0", "vue": "^3.2.0" }, "optionalPeers": ["@nuxt/kit"] }, "sha512-afW+h2CFafo+7Y9Lvw/xsqjaQlKLdJV7h1fCHfcYQ1C4SVMlu7OAekqWgu5d4SgvkBVU0pVpLlVsrSTBURFRkg=="],
+
+    "flowchart": ["flowchart@workspace:presentations/flowchart"],
 
     "follow-redirects": ["follow-redirects@1.15.11", "", {}, "sha512-deG2P0JfjrTxl50XGCDyfI97ZGVCxIpfKYmfyrQ54n5FO/0gfIES8C/Psl6kWVDolizcaaxZJnTS0QSMxvnsBQ=="],
 
