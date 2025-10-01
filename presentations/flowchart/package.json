@@ -1,0 +1,20 @@
+{
+  "name": "flowchart",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md --base /$REPO_NAME/flowchart/ --out ../../dist/flowchart",
+    "build:preview": "slidev build slides.md --base /flowchart/ --out ../../dist/flowchart",
+    "export": "slidev export slides.md --with-clicks --output ../../export/flowchart"
+  },
+  "dependencies": {
+    "@layouts/slidev-extra": "workspace:*",
+    "@slidev/cli": "^52.2.4",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "katex": "^0.16.22",
+    "slidev-addon-qrcode": "^1.0.2",
+    "vue": "^3.5.21"
+  }
+}
