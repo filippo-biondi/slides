@@ -15,6 +15,6 @@
 <script setup>
 import CustomBlock from './CustomBlock.vue';
 defineProps({
-  title: { type: String, default: 'Key Takeaway' },
+  title: { type: String, default: 'Takeaway Message' },
 });
 </script>

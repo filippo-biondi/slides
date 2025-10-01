@@ -15,6 +15,6 @@
 <script setup>
 import CustomBlock from './CustomBlock.vue';
 defineProps({
-  title: { type: String, default: 'Warning' },
+  title: { type: String, default: 'Atternzione' },
 });
 </script>
