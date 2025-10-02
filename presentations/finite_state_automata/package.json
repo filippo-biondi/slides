@@ -1,0 +1,20 @@
+{
+  "name": "finite_state_automata",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md --base /$REPO_NAME/finite_state_automata/ --out ../../dist/finite_state_automata",
+    "build:preview": "slidev build slides.md --base /finite_state_automata/ --out ../../dist/finite_state_automata",
+    "export": "slidev export slides.md --with-clicks --output ../../export/finite_state_automata"
+  },
+  "dependencies": {
+    "@layouts/slidev-extra": "workspace:*",
+    "@slidev/cli": "^52.2.4",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "katex": "^0.16.22",
+    "slidev-addon-qrcode": "^1.0.2",
+    "vue": "^3.5.21"
+  }
+}
