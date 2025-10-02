@@ -1,5 +1,5 @@
 ---
-title: Progettazione Concettuale
+title: Automi a Stati Finiti
 author: Filippo Biondi
 presenter: dev
 browserExporter: false
