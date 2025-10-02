@@ -1,0 +1,20 @@
+{
+  "name": "distribuited_and_socket",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md --base /$REPO_NAME/distribuited_and_socket/ --out ../../dist/distribuited_and_socket",
+    "build:preview": "slidev build slides.md --base /distribuited_and_socket/ --out ../../dist/distribuited_and_socket",
+    "export": "slidev export slides.md --with-clicks --output ../../export/distribuited_and_socket"
+  },
+  "dependencies": {
+    "@layouts/slidev-extra": "workspace:*",
+    "@slidev/cli": "^52.2.4",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "katex": "^0.16.22",
+    "slidev-addon-qrcode": "^1.0.2",
+    "vue": "^3.5.21"
+  }
+}
