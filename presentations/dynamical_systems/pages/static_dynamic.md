@@ -7,7 +7,7 @@
 <VSpace space="4"/>
 
 $$
-y(t) = f(u(t))
+y(t) = g(u(t))
 $$
 
 </DefinitionBlock>
@@ -21,6 +21,6 @@ $$
 <VSpace space="4"/>
 
 $$
-y(t) = f(x(t), u(t))
+y(t) = g(x(t), u(t))
 $$
 </DefinitionBlock>
